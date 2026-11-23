@@ -144,31 +144,8 @@ El conjunto de datos resultante permite consultar información de población, ma
 
 Es importante considerar que los datos poblacionales corresponden al Censo 2022 y los educativos al período 2022-2023, por lo que su integración permite una comparación descriptiva y no representa directamente una tasa de cobertura escolar.
 
-## 6. Estructura del proyecto
 
-```text
-ETL-Educacion-Poblacion-Loja/
-|
-|-- datos_fuente/
-|   |-- 2.1.csv
-|   |-- registro-administrativo-historico_2009-2024-inicio.csv
-|
-|-- scripts_etl/
-|   |-- etl.py
-|
-|-- datos_resultantes/
-|   |-- inec_loja_limpio.csv
-|   |-- mineduc_loja_limpio.csv
-|   |-- educacion_poblacion_loja.csv
-|
-|-- evidencias/
-|
-|-- README.md
-|-- requirements.txt
-```
-
-
-## 7. Conclusión
+## 6. Conclusión
 
 El proyecto permitió integrar información de dos fuentes públicas que originalmente presentaban estructuras y formatos diferentes.
 
